@@ -1,8 +1,8 @@
-import './styles.css';
-// import template from './gallery-items.hbs';
-// import menu from './menu.json';
+import './stules.css';
+import template from './gallery-items.hbs';
+import menu from './menu.json';
 
-console.log('??????????');
+// console.log('??????????');
 
 const refs = {
   menuList: document.querySelector('.js-menu'),
