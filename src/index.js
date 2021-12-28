@@ -34,7 +34,7 @@ function defaultTheme() {
 defaultTheme();
 
 function savedChangeTheme(e) {
-  console.log(e);
+  // console.log(e);
   if (e.target.checked) {
     themeShow.classList.add(Theme.DARK);
     themeShow.classList.remove(Theme.LIGHT);
